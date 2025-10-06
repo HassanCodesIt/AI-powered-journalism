@@ -66,17 +66,6 @@ Here’s a **preview** of the README rewritten with all your requirements added 
 
 ---
 
-## Project Structure
-
-```bash
-AI-powered-journalism/
-├── app.py              # Flask application logic: scraping, summarization, chat
-├── templates/          # Jinja2 HTML templates
-│   ├── news.html       # Displays articles list with links to chat
-│   └── chat.html       # Summarization + conversational UI
-├── static/             # Placeholder for CSS, JS, and images
-```
-
 * **`templates/`**: Holds server-rendered HTML files.
 * **`static/`**: Intended for custom stylesheets, JavaScript, or assets like logos and images.
 
