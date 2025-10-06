@@ -1,4 +1,4 @@
-# 📰 AI-powered Journalism  
+# 📰 AI-powered Journalism (RAG)
 
 AI-powered Journalism is a prototype web application that combines automated article scraping, summarization, and conversational Q&A. It fetches articles from an [RSS feed](https://en.wikipedia.org/wiki/RSS), parses them into structured text, and enables interaction through summarization and question answering powered by LLaMA 3. The application is built with [Flask](https://flask.palletsprojects.com/) and uses HTML templates for rendering content.
 
