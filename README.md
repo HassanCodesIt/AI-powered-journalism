@@ -94,4 +94,4 @@ AI-powered-journalism/
 
 ---
 
-Do you want me to now generate this into a **`README.md` file** with correct Markdown formatting so you can commit it directly?
+
