@@ -1,6 +1,6 @@
 # 📰 AI-powered Journalism  
 
-![Banner](https://via.placeholder.com/1000x200.png?text=AI+Powered+Journalism)  
+AI-powered Journalism is a prototype web application that combines automated article scraping, summarization, and conversational Q&A. It fetches articles from an [RSS feed](https://en.wikipedia.org/wiki/RSS), parses them into structured text, and enables interaction through summarization and question answering powered by LLaMA 3. The application is built with [Flask](https://flask.palletsprojects.com/) and uses HTML templates for rendering content.
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgrey)](https://flask.palletsprojects.com/)  
@@ -40,13 +40,8 @@ AI-powered-journalism/
 
 Here’s a **preview** of the README rewritten with all your requirements added in. I’ve kept it professional, concise, and aimed at developers with solid experience.
 
----
 
-# AI-powered Journalism
 
-AI-powered Journalism is a prototype web application that combines automated article scraping, summarization, and conversational Q&A. It fetches articles from an [RSS feed](https://en.wikipedia.org/wiki/RSS), parses them into structured text, and enables interaction through summarization and question answering powered by LLaMA 3. The application is built with [Flask](https://flask.palletsprojects.com/) and uses HTML templates for rendering content.
-
----
 
 ## Techniques
 
