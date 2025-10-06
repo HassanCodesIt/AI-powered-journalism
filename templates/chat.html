@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Chat</title>
+</head>
+<body>
+    <h2>{{ title }}</h2>
+    <p>{{ text }}</p>
+
+    <h3>Summary:</h3>
+    {% if summary %}
+        <p style="white-space: pre-line;">{{ summary }}</p>
+    {% endif %}
+
+    {% if answer %}
+        <h3>Answer:</h3>
+        <p>{{ answer }}</p>
+    {% endif %}
+
+    <form action="/chat" method="get">
+        <input type="hidden" name="title" value="{{ title }}">
+        <input type="hidden" name="text" value="{{ text }}">
+        {% if summary %}
+            <input type="hidden" name="summary" value="{{ summary }}">
+        {% endif %}
+        <textarea name="message" placeholder="Type your message..."></textarea><br>
+        <button type="submit" name="action" value="send">Send</button>
+        <button type="submit" name="action" value="summarize">Summarize</button>
+    </form>
+</body>
+</html>

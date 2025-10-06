@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .article-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .article-card h2 {
+            margin-top: 0;
+        }
+
+        .chat-button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .chat-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>News</h1>
+
+    <header>
+        <nav>
+            <a href="sports.html">Sports</a>
+            <a href="finance.html">Finance</a>
+        </nav>
+    </header>
+
+    <div id="articles-container">
+        {% for article in articles %}
+        <div class="article-card">
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.text }}</p>
+            <button class="chat-button" onclick="window.location.href='/chat?title={{ article.title|urlencode }}&text={{ article.text|urlencode }}'">
+    Chat about this
+</button>
+
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        function openChat(articleTitle) {
+            alert("Chatbot for: " + articleTitle);
+            // Here you can integrate your chatbot popup/modal
+        }
+    </script>
+</body>
+</html>
