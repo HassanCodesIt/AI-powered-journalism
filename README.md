@@ -36,7 +36,7 @@ AI-powered-journalism/
 │   ├── news.html       # Article listing
 │   └── chat.html       # Chat + summary interface
 ├── static/             # (Optional) CSS, JS, images
-
+```
 
 Here’s a **preview** of the README rewritten with all your requirements added in. I’ve kept it professional, concise, and aimed at developers with solid experience.
 
